@@ -10,9 +10,15 @@ h1 {
     font-size: 50px;
 }
 
-.container {
+.container1 {
     display: grid;
     align-items: center;
+    grid-template-columns: 1.5fr 1fr;
+    column-gap: 50px;
+}
+
+.container2 {
+    display: grid;
     grid-template-columns: 1.5fr 1fr;
     column-gap: 50px;
 }
@@ -20,12 +26,21 @@ h1 {
 img {
     max-width: 60%;
     max-height: 60%;
+    align-self: right;
 }
 
-.text {
+.bodytext {
     font-size: 15px;
     color: white;
     max-width: 920px;
 }
+
+.annotation {
+    text-align: right;
+    font-family: cursive;
+    color: white;
+
+}
+
 
 
