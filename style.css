@@ -1,6 +1,10 @@
 body {
     max-width: 1920px;
     background-color: black;
+    background: #ff9966;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient( rigtoht, #ff5e62, #ff9966); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 
@@ -8,6 +12,7 @@ h1 {
     color: white;
     font-weight: bold;
     font-size: 50px;
+    text-align: center;
 }
 
 .container1 {
@@ -24,13 +29,13 @@ h1 {
 }
 
 img {
-    max-width: 60%;
-    max-height: 60%;
-    align-self: right;
+    max-width: 22%;
+    max-height: 22%;
+    float: right;
 }
 
 .bodytext {
-    font-size: 15px;
+    font-size: 18px;
     color: white;
     max-width: 920px;
 }
@@ -39,7 +44,11 @@ img {
     text-align: right;
     font-family: cursive;
     color: white;
+}
 
+.links {
+    color: white;
+    text-align: center;
 }
 
 
