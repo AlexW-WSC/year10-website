@@ -1,9 +1,10 @@
 body {
+    max-height: 1080px; 
     max-width: 1920px;
     background-color: black;
     background: #ff9966;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient( rigtoht, #ff5e62, #ff9966); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #ff5e62, #ff9966); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
@@ -28,6 +29,8 @@ h1 {
     column-gap: 50px;
 }
 
+
+
 img {
     max-width: 22%;
     max-height: 22%;
@@ -35,7 +38,7 @@ img {
 }
 
 .bodytext {
-    font-size: 18px;
+    font-size: 21px;
     color: white;
     max-width: 920px;
 }
