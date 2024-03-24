@@ -16,24 +16,10 @@ h1 {
     text-align: center;
 }
 
-.container1 {
-    display: grid;
-    align-items: center;
-    grid-template-columns: 1.5fr 1fr;
-    column-gap: 50px;
-}
-
-.container2 {
-    display: grid;
-    grid-template-columns: 1.5fr 1fr;
-    column-gap: 50px;
-}
-
-
 
 img {
-    max-width: 22%;
-    max-height: 22%;
+    max-width: 25%;
+    max-height: 25%;
     float: right;
 }
 
@@ -44,7 +30,7 @@ img {
 }
 
 .annotation {
-    text-align: right;
+    display:block;
     font-family: cursive;
     color: white;
 }
@@ -52,6 +38,10 @@ img {
 .links {
     color: white;
     text-align: center;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color:white;
 }
 
 
