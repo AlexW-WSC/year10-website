@@ -29,6 +29,13 @@ img {
     max-width: 920px;
 }
 
+.boldtext {
+    font-size: 21px;
+    color: white;
+    max-width: 920px;
+    font-weight: bold;
+}
+
 .annotation {
     display:block;
     font-family: cursive;
